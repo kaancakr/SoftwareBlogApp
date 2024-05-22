@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "BinaryBlogApp",
+    "slug": "BinaryBlogApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ckrdevelopment.DevApp",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ckrdevelopment.DevApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "ckrdevelopment",
+    "extra": {
+      "eas": {
+        "projectId": "296f6887-d240-467e-845f-d94105274635"
+      }
+    }
+  }
+}
